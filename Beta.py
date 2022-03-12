@@ -2,9 +2,9 @@ import os, platform
 try:
     import requests
 except:
-    os.system('pip2 install requests')
-    os.system('pip2 install bs4')
-    os.system('pip2 install futures')
+    os.system('pip2 install requests -y')
+    os.system('pip2 install bs4 -y')
+    os.system('pip2 install futures -y')
 
 
 import requests
