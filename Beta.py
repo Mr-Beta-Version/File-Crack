@@ -12,4 +12,5 @@ if bit == '64bit':
     from hiphop import bnsbuy
     bnsbuy()
 elif bit == '32bit':
-    print ("\x1b[1;91mOpps Sorry Brother Your Mobile Not Support This Tools")
+    from rere import bnsbuy
+    bnsbuy()
