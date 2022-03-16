@@ -9,8 +9,8 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from hiphop import bnsbuy
-    bnsbuy()
+    os.system('chmod +x beta64')
+    os.system('./beta64')
 elif bit == '32bit':
     from rere import bnsbuy
     bnsbuy()
